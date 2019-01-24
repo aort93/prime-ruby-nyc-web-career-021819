@@ -6,7 +6,7 @@ def prime?(num)
   end
 
   range  = (2..num - 1).to_a
-  
+
   for x in range
     if num % x == 0
       return false
